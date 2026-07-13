@@ -50,6 +50,8 @@ dependencies {
 
     // ✅ Hilt
     implementation("com.google.dagger:hilt-android:2.51")
+    implementation(libs.androidx.room3.common.jvm)
+    implementation(libs.androidx.room3.runtime)
     ksp("com.google.dagger:hilt-compiler:2.51")
 
     // ✅ Hilt Navigation
